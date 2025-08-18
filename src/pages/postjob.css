@@ -1,0 +1,93 @@
+/* Container */
+.postjob-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Top bar */
+.top-bar {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.top-bar h2 {
+  font-size: 22px;
+  color: #333;
+}
+
+/* Form */
+.postjob-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Form group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #444;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  border-color: #007bff;
+}
+
+/* Textarea */
+.form-group textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+/* Button */
+.post-btn {
+  background: #007bff;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.post-btn:hover {
+  background: #0056b3;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .postjob-page {
+    padding: 15px;
+  }
+
+  .post-btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
