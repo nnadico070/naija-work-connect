@@ -21,7 +21,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +40,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://nnadico070.github.io/naija-work-connect"
-
+  "homepage": "https://nnadico070.github.io/naija-work-connect",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
