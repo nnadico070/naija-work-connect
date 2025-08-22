@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/naija-work-connect/static/css/main.bd0e984f.css",
-    "main.js": "/naija-work-connect/static/js/main.71b1ff5b.js",
+    "main.js": "/naija-work-connect/static/js/main.fddd9fb5.js",
     "static/media/binet.jpg": "/naija-work-connect/static/media/binet.9db9ca966a3c35f2d64b.jpg",
     "index.html": "/naija-work-connect/index.html",
     "main.bd0e984f.css.map": "/naija-work-connect/static/css/main.bd0e984f.css.map",
-    "main.71b1ff5b.js.map": "/naija-work-connect/static/js/main.71b1ff5b.js.map"
+    "main.fddd9fb5.js.map": "/naija-work-connect/static/js/main.fddd9fb5.js.map"
   },
   "entrypoints": [
     "static/css/main.bd0e984f.css",
-    "static/js/main.71b1ff5b.js"
+    "static/js/main.fddd9fb5.js"
   ]
 }
